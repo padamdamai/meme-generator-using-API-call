@@ -78,3 +78,23 @@ text-indent:23px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  .firstText{
+    color:white;
+    transform: translate(7rem,2rem);
+    width: 15rem;
+    height: 4rem;
+    overflow-wrap: break-word;
+    font-size: 17px;
+    font-family: cursive;
+   
+  }
+  .secondText{
+    transform: translate(7rem,-2rem);
+    width: 15rem;
+    height: 4rem;
+    overflow-wrap: break-word;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
